@@ -1,0 +1,59 @@
+div {
+    border: 3px #000 solid;
+    box-sizing: border-box;
+}
+.footer > div {
+float: left;
+width: 50%;
+text-align: center;
+}
+.container > div {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.logo {
+    text-align: center;
+    
+
+}
+.logo img {
+    width: 200px;
+
+}
+.side-bar {
+    width: 200px;
+
+}
+.side-bar1 {
+    float: left;
+    margin-left: -200px;
+}
+.side-bar2 {
+    float: right;
+    margin-right: -200px;
+    
+}
+.side-bar2 img {
+    width: 100%;
+}
+.content {
+    float: left;
+    width: 100%;
+}
+
+.center {
+    padding: 0 200px 0 200px;
+}
+
+
+
+
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
